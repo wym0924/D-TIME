@@ -6,6 +6,10 @@
         "weight_decay": 0.0001,
         "num_epochs": 100,
         "patience": 5,
+        "num_experts": 4,
+        "loss": "MAE",
+        "d_model": 512,
+        "CI": 1,
         "horizon": 96, 192, 336, 720  
     },
     "evaluation_config": {
