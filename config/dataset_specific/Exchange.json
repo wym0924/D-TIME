@@ -1,0 +1,24 @@
+{
+    "model_hyper_params": {
+        "seq_len": 192,
+        "batch_size": 128,
+        "lr": 0.0001,
+        "weight_decay": 0.0001,
+        "num_epochs": 100,
+        "patience": 5,
+        "num_experts": 4,
+        "loss": "MAE",
+        "d_model": 1024,
+        "CI": 1,
+        "horizon": 96, 192, 336, 720  
+    },
+    "evaluation_config": {
+        "strategy_args": {
+            "seed": 2021
+        }
+    },
+    "hardware_config": {
+        "gpu": "0",
+        "gpu_driver_version": "570.133.07"
+    }
+}
