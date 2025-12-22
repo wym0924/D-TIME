@@ -8,11 +8,11 @@ For the complete experimental configuration (including hyperparameters, hardware
 
 ## Quickstart
 
-this project is fully tested under python 3.8, it is recommended that you set the Python version to 3.8.
+this project is fully tested under python 3.10, it is recommended that you set the Python version to 3.10.
 
 1. Requirements
 
-Given a python environment (**note**: this project is fully tested under python 3.8), install the dependencies with the following command:
+Given a python environment (**note**: this project is fully tested under python 3.10), install the dependencies with the following command:
 
 ```
 pip install -r requirements.txt
